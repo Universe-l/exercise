@@ -1,0 +1,27 @@
+ul li{
+    width: 940px;
+    height: 40px;
+    line-height: 32px;
+    overflow: hidden;
+    color: dimgray;
+    font-size: 14px;
+    font-weight: lighter;
+    border-bottom: 1px dashed #abacad;
+    font-family:"Microsoft YaHei UI";
+}
+ul li p{
+    float: right;
+    width: 69px;
+    height: 40px;
+    margin-right: 5px;
+}
+.left{
+    width: 980px;
+    height: 782px;
+    background-color: white;
+    border-radius: 4px;
+    margin-right: 20px;
+    float: left;
+    margin-top:  20px;
+    padding-top: 10px;
+}
