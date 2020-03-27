@@ -1,0 +1,31 @@
+.banner{
+    width: 980px;
+    height: 188px;
+    margin: 0 auto;
+}
+.banner img{
+    border: 1px solid #e2e3e4;
+    margin-top: 25px ;
+    margin-left: 10px;
+}
+.page{
+    width: 938px;
+    height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.page a{
+    height: 22px;
+    border: 1px solid #e2e3e4;
+    margin-left: 10px;
+    background-color: #ffff;
+}
+.page a:hover{
+    background-color: blue;
+}
+li.dotted{
+    border-bottom: 1px dashed #dedede;
+}
