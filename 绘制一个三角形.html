@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绘制三角形</title>
+    <style>
+        .triangle-up {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid red;
+        }
+        #test{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: myFirst 5s;
+        }
+        @keyframes myFirst{
+            from {
+                background-color: red;
+            }
+            to {
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="triangle-up"></div>
+
+    <div>
+        <p>写一段css3动画，在5s内，div背景色从red变为blue</p>
+        <div id="test"></div>
+    </div>
+</body>
+</html>
